@@ -6,7 +6,7 @@ public class P365 {
 		// TODO Auto-generated method stub
 		Car car = new Car();
 		
-		for(int i=1; i<=5; i++) {
+		for(int i = 1; i <= 5; i++) {
 			int problemLocation = car.run();
 			switch(problemLocation) {
 				case 1:

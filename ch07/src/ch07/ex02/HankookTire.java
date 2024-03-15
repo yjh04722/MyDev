@@ -8,7 +8,7 @@ public class HankookTire extends Tire {
 	@Override
 	public boolean roll() {
 		++accumulatedRotation;		
-		if(accumulatedRotation<maxRotation) {
+		if(accumulatedRotation < maxRotation) {
 			System.out.println(location + " HankookTire 수명: " + (maxRotation-accumulatedRotation) + "회");
 			return true;
 		} else {
