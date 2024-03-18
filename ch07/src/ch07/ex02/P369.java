@@ -8,6 +8,7 @@ public class P369 {
 		Bus b = new Bus();
 		Taxi t = new Taxi();
 		
+		
 		d.drive(b);
 		d.drive(t);
 	}
